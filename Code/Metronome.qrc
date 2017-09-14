@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/metro">
+        <file>bell.wav</file>
+        <file>click.wav</file>
+    </qresource>
+</RCC>

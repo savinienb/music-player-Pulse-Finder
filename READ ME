@@ -1,0 +1,54 @@
+//////////////////////////////////////////////////////////
+//SAVINIEN BONHEUR PULSE FINDER				//
+//////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////
+//PRESENTATION						//
+//////////////////////////////////////////////////////////
+
+You will find hereby my Pulse Finder project. This BSC project aim for beat detection throught an homemade audio player. The current version can only run live beat detection on prerecorded sources (MP3,WAV,...). Enjoy !
+
+//////////////////////////////////////////////////////////
+//RUNNING IT						//
+//////////////////////////////////////////////////////////
+
+------------------
+WINDOW
+------------------
+	Install :
+
+		-The QPhonon librairy ("http://doc.qt.io/qt-4.8/phonon-overview.html#installing-phonon")
+
+	Edit : The .pro file as detailled in it
+
+
+------------------
+LINUX
+------------------
+
+	Intall :
+
+		-The QPhonon librairy ("sudo apt-get install libphonon-dev phonon-backend-gstreamer")
+
+		-The QTmultimedia librairy ("sudo apt-get install qtmobility-dev")
+
+
+//////////////////////////////////////////////////////////
+//HOW TO USE THE LIVE BPM DETECTION			//
+//////////////////////////////////////////////////////////
+
+To use this feature you just need to play a song, set the variance and the mean to some value and the click on the "set live bpm" button.
+Warning ! :depending of the kind of musique, differents setting will be needed to have a good beat detection
+
+
+//////////////////////////////////////////////////////////
+//WHAT ABOUT THIS BPM PAGE ?				//
+//////////////////////////////////////////////////////////
+
+This is an non finished features witch was suppose to find the precise bpm of the song throught convolution. However I could nt get this part working (not the good result) . If you want to see the (wrong) result of this feature you need to go to debug mode, enter ,by hand, the path in the audioclass class, run the programm in debug mode, click on the "find precise bpm" button and then follow the prompt instruction.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
