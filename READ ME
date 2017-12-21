@@ -26,11 +26,12 @@ WINDOW
 
 
 ------------------
-LINUX
+UBUNTU 12.04 (only)
 ------------------
 
 	Intall :
-
+		-Ubuntu multimedia package
+		
 		-The QPhonon librairy ("sudo apt-get install libphonon-dev phonon-backend-gstreamer")
 
 		-The QTmultimedia librairy ("sudo apt-get install qtmobility-dev")
